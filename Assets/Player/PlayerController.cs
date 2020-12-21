@@ -136,51 +136,45 @@ public class PlayerController : MonoBehaviour
 
             float run = 1f;
             isRunning = false;
-            if (Input.GetAxis("Run") > 0 && Mathf.Abs(x) < 0.5 && z > 0.5)
+            /*if (Input.GetAxis("Run") > 0 && Mathf.Abs(x) < 0.5 && z > 0.5)
             {
                 run = 1f + Input.GetAxis("Run");
                 isRunning = true;
-            }
+            }*/
 
             controller.Move(move * speed * run * Time.deltaTime);
 
-            if (Input.GetButtonDown("Jump") && isGrounded)
+            /*if (Input.GetButtonDown("Jump") && isGrounded)
             {
                 velocity.y = Mathf.Sqrt(jumpHeight * -2f * gravity);
-            }
+            }*/
 
             velocity.y += gravity * Time.deltaTime;
             controller.Move(velocity * Time.deltaTime);
 
             if (Input.GetButtonDown("Fire1"))
             {
+                Debug.Log("IPressing");
                 RaycastHit hit;
                 Ray ray = GetComponentInChildren<Camera>().ScreenPointToRay(Input.mousePosition);
                 if (Physics.Raycast(ray, out hit, interactDistance))
                 {
+                    Debug.Log("Intercating");
                     GameObject hitObject = hit.transform.gameObject;
                     if (hitObject.TryGetComponent<ObjectScript>(out ObjectScript objectScript))
                     {
                         Interact(objectScript);
+                        
                     }
                 }
             }
         }
         else 
         {
-            if (Input.GetButtonDown("Jump"))
+            if (Input.GetButtonDown("Fire1"))
 			{
                 Interact(lastChair);
 			}
-        }
-
-		if (Input.GetButtonDown("Fire2"))
-		{
-            Debug.Log("Inventory:");
-            for (int i = 0; i < inventory.Count; i++)
-            {
-                Debug.Log(inventory[i].type.ToString());
-            }
         }
     }    
 }
