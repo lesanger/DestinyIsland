@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Runtime.CompilerServices;
 using UnityEditor;
 using UnityEngine;
-using UnityEngine.UIElements;
+using UnityEngine.UI;
 
 public class PlayerController : MonoBehaviour
 {
@@ -24,12 +24,14 @@ public class PlayerController : MonoBehaviour
     private bool isGrounded;
 
     [Header("Взаимодействие")]
+    public GameObject talkPanel;
     public float interactDistance = 1f;
     private ObjectScript lastChair;
     private ObjectScript lastNPC;
     private bool isSitting = false;
     private bool canMove = true;
     private bool isTalking = false;
+
 
     [Header("Камера")]
     public Transform cameraObject;
@@ -42,7 +44,8 @@ public class PlayerController : MonoBehaviour
 	{
         controller = GetComponent<CharacterController>();
         animator = GetComponentInChildren<Animator>();
-
+        talkPanel.SetActive(false);
+        
         QualitySettings.vSyncCount = 0;
         Application.targetFrameRate = -1;
     }
@@ -99,7 +102,10 @@ public class PlayerController : MonoBehaviour
             isTalking = true;
             canMove = false;
             lastNPC = objectScript;
-            
+
+            talkPanel.SetActive(true);
+            talkPanel.GetComponent<Image>().sprite = lastNPC.data.artwork;
+
             Debug.Log("Я разговариваю с " + objectScript.data.name);
         }
     }
@@ -148,6 +154,8 @@ public class PlayerController : MonoBehaviour
                 lastNPC = null;
                 isTalking = false;
                 canMove = true;
+                talkPanel.GetComponent<Image>().sprite = null;
+                talkPanel.SetActive(false);
             }
             
             if (Input.GetButtonDown("Fire2"))
@@ -156,6 +164,8 @@ public class PlayerController : MonoBehaviour
                 lastNPC = null;
                 isTalking = false;
                 canMove = true;
+                talkPanel.GetComponent<Image>().sprite = null;
+                talkPanel.SetActive(false);
             }
         }
         else if (Input.GetButtonDown("Fire1"))

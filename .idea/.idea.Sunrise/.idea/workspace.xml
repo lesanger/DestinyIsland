@@ -20,10 +20,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="796ede43-dde9-43bc-a53a-4c0f6fe33703" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Assets/Objects/Data/180210.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Objects/Data/180210.jpg.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Sunrise/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Sunrise/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Objects/Data/Test NPC.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Objects/Data/Test NPC.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Objects/Interactable.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Objects/Interactable.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Player/CameraConroller.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Player/CameraConroller.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Player/PlayerController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Player/PlayerController.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" afterDir="false" />
     </list>
@@ -96,7 +96,7 @@
       <workItem from="1608588046718" duration="211000" />
       <workItem from="1608920912730" duration="97000" />
       <workItem from="1608921202043" duration="1030000" />
-      <workItem from="1608922926117" duration="6842000" />
+      <workItem from="1608922926117" duration="8296000" />
     </task>
     <servers />
   </component>
