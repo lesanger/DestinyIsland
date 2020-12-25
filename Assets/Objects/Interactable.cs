@@ -10,7 +10,7 @@ public class Interactable : ScriptableObject
     public Type type;
     
     [Header("Данные NPC")]
-    public int id;
+    public int id; // Используются для подсчета выполненных грехов
     public new string name;
     public Sprite artwork;
 }

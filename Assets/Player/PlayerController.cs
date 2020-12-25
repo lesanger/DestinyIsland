@@ -26,9 +26,10 @@ public class PlayerController : MonoBehaviour
     [Header("Взаимодействие")]
     public float interactDistance = 1f;
     private ObjectScript lastChair;
+    private ObjectScript lastNPC;
     private bool isSitting = false;
-
-
+    private bool canMove = true;
+    private bool isTalking = false;
 
     [Header("Камера")]
     public Transform cameraObject;
@@ -48,7 +49,9 @@ public class PlayerController : MonoBehaviour
 
     void Update()
     {
-        Actions();
+        cameraObject.GetComponent<CameraConroller>().canMove = canMove;
+        
+        Inputs();
         CameraHolderAnimator();
     }
 
@@ -56,7 +59,7 @@ public class PlayerController : MonoBehaviour
 	{
         if (objectScript.data.type == Type.chair)
         {
-            if (isSitting)
+            /*if (isSitting)
             {
                 Debug.Log("Standing up");
 
@@ -89,9 +92,16 @@ public class PlayerController : MonoBehaviour
                 lastChair = objectScript;
 
                 inventory.Add(objectScript.data);
-            }
+            }*/
         }
-        // elseif  Type.npc
+        else if (objectScript.data.type == Type.npc)
+        {
+            isTalking = true;
+            canMove = false;
+            lastNPC = objectScript;
+            
+            Debug.Log("Я разговариваю с " + objectScript.data.name);
+        }
     }
 
     void CameraHolderAnimator()
@@ -107,51 +117,60 @@ public class PlayerController : MonoBehaviour
             animator.speed = 1f;
         }
     }
-
-    void Actions()
+    
+    void Inputs()
 	{
-		if (isSitting == false)
-		{
-            isGrounded = Physics.CheckSphere(groundCheck.position, groundDistance, groundMask);
-            if (isGrounded && velocity.y < 0f)
-            {
-                velocity.y = -2f;
-            }
+        // Проверка земли
+        isGrounded = Physics.CheckSphere(groundCheck.position, groundDistance, groundMask);
+        if (isGrounded && velocity.y < 0f)
+        {
+            velocity.y = -2f;
+        }
 
+        if (canMove)
+        {
             // Ходьба
             x = Input.GetAxis("Horizontal");
             z = Input.GetAxis("Vertical");
             move = transform.right * x + transform.forward * z;
             controller.Move(move * speed * Time.deltaTime);
+        }
+        
+        // Гравитация
+        velocity.y += gravity * Time.deltaTime;
+        controller.Move(velocity * Time.deltaTime);
 
-            //Гравитация
-            velocity.y += gravity * Time.deltaTime;
-            controller.Move(velocity * Time.deltaTime);
-
-            // Взаимодействие
+        if (isTalking)
+        {
             if (Input.GetButtonDown("Fire1"))
             {
-                Debug.Log("IPressing");
-                RaycastHit hit;
-                Ray ray = GetComponentInChildren<Camera>().ScreenPointToRay(Input.mousePosition);
-                if (Physics.Raycast(ray, out hit, interactDistance))
+                Debug.Log("Я согласился с " + lastNPC.data.name);
+                lastNPC = null;
+                isTalking = false;
+                canMove = true;
+            }
+            
+            if (Input.GetButtonDown("Fire2"))
+            {
+                Debug.Log("Я отказался от предложения " + lastNPC.data.name);
+                lastNPC = null;
+                isTalking = false;
+                canMove = true;
+            }
+        }
+        else if (Input.GetButtonDown("Fire1"))
+        {
+            Debug.Log("Взаимодействую...");
+            RaycastHit hit;
+            Ray ray = GetComponentInChildren<Camera>().ScreenPointToRay(Input.mousePosition);
+            if (Physics.Raycast(ray, out hit, interactDistance))
+            {
+                GameObject hitObject = hit.transform.gameObject;
+                if (hitObject.TryGetComponent<ObjectScript>(out ObjectScript objectScript))
                 {
-                    Debug.Log("Intercating");
-                    GameObject hitObject = hit.transform.gameObject;
-                    if (hitObject.TryGetComponent<ObjectScript>(out ObjectScript objectScript))
-                    {
-                        Interact(objectScript);
-                        
-                    }
+                    Interact(objectScript);
                 }
             }
         }
-        else 
-        {
-            if (Input.GetButtonDown("Fire1"))
-			{
-                Interact(lastChair);
-			}
-        }
-    }    
-}
+    }
+}    
