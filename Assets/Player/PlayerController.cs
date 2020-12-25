@@ -8,29 +8,34 @@ using UnityEngine.UIElements;
 public class PlayerController : MonoBehaviour
 {
     private CharacterController controller;
-    private Vector3 move;
+    
+    [Header("Показатели персонажа")]
     public float speed = 12f;
     public float gravity = -9.81f;
-    public float jumpHeight = 1f;
+    private float x;
+    private float z;
     private Vector3 velocity;
-    
+    private Vector3 move;
+
+    [Header("Проверка земли")]
     public Transform groundCheck;
     public LayerMask groundMask;
     public float groundDistance = -0.4f;
     private bool isGrounded;
 
+    [Header("Взаимодействие")]
     public float interactDistance = 1f;
     private ObjectScript lastChair;
     private bool isSitting = false;
 
-    private float x;
-    private float z;
 
+
+    [Header("Камера")]
     public Transform cameraObject;
     private Animator animator;
-    private bool isRunning;
 
-    public List<InteractableData> inventory = new List<InteractableData>();
+    [Header("Инвентарь")]
+    public List<Interactable> inventory = new List<Interactable>();
 
     void Awake()
 	{
@@ -86,36 +91,19 @@ public class PlayerController : MonoBehaviour
                 inventory.Add(objectScript.data);
             }
         }
-        else if (objectScript.data.type == Type.item)
-        {
-            Debug.Log("Using item");
-            inventory.Add(objectScript.data);
-        }
-        else if (objectScript.data.type == Type.interactable)
-        {
-            Debug.Log("Interacting");
-            inventory.Add(objectScript.data);
-        }
+        // elseif  Type.npc
     }
 
     void CameraHolderAnimator()
 	{
-        if (move.magnitude != 0 && isRunning == false && isSitting == false)
+        if (move.magnitude != 0 && isSitting == false)
         {
             animator.SetBool("isWalking", true);
-            animator.SetBool("isRunning", false);
             animator.speed = move.magnitude;
-        }
-        else if (move.magnitude != 0 && isRunning == true && isSitting == false)
-        {
-            animator.SetBool("isWalking", false);
-            animator.SetBool("isRunning", true);
-            animator.speed = 1f;
         }
         else
         {
             animator.SetBool("isWalking", false);
-            animator.SetBool("isRunning", false);
             animator.speed = 1f;
         }
     }
@@ -130,28 +118,17 @@ public class PlayerController : MonoBehaviour
                 velocity.y = -2f;
             }
 
+            // Ходьба
             x = Input.GetAxis("Horizontal");
             z = Input.GetAxis("Vertical");
             move = transform.right * x + transform.forward * z;
+            controller.Move(move * speed * Time.deltaTime);
 
-            float run = 1f;
-            isRunning = false;
-            /*if (Input.GetAxis("Run") > 0 && Mathf.Abs(x) < 0.5 && z > 0.5)
-            {
-                run = 1f + Input.GetAxis("Run");
-                isRunning = true;
-            }*/
-
-            controller.Move(move * speed * run * Time.deltaTime);
-
-            /*if (Input.GetButtonDown("Jump") && isGrounded)
-            {
-                velocity.y = Mathf.Sqrt(jumpHeight * -2f * gravity);
-            }*/
-
+            //Гравитация
             velocity.y += gravity * Time.deltaTime;
             controller.Move(velocity * Time.deltaTime);
 
+            // Взаимодействие
             if (Input.GetButtonDown("Fire1"))
             {
                 Debug.Log("IPressing");
