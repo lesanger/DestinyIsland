@@ -42,9 +42,10 @@ public class PlayerController : MonoBehaviour
 
     void Awake()
 	{
+        talkPanel.SetActive(false);
+        
         controller = GetComponent<CharacterController>();
         animator = GetComponentInChildren<Animator>();
-        talkPanel.SetActive(false);
         
         QualitySettings.vSyncCount = 0;
         Application.targetFrameRate = -1;
@@ -126,7 +127,7 @@ public class PlayerController : MonoBehaviour
     
     void Inputs()
 	{
-        // Проверка земли
+        // Проверка нахождения на земле
         isGrounded = Physics.CheckSphere(groundCheck.position, groundDistance, groundMask);
         if (isGrounded && velocity.y < 0f)
         {
