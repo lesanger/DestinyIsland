@@ -20,8 +20,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="796ede43-dde9-43bc-a53a-4c0f6fe33703" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Assets/Objects/terrain.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Objects/terrain.fbx.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Sunrise/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Sunrise/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Sunrise/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Sunrise/.idea/indexLayout.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Sunrise/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Sunrise/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Objects/Water/M_Water.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Objects/Water/M_Water.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Objects/Water/SH_StylizedWater.shadergraph" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Objects/Water/SH_StylizedWater.shadergraph" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Materials/Prototype Grid/Prototype_512x512_Blue1.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Materials/Prototype Grid/Prototype_512x512_Blue1.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Setting/UniversalRenderPipelineAsset.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Setting/UniversalRenderPipelineAsset.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,9 +37,6 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-  </component>
-  <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/Assets/Player/PlayerController.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <changedPaths>
@@ -93,6 +97,7 @@
       <workItem from="1608920912730" duration="97000" />
       <workItem from="1608921202043" duration="1030000" />
       <workItem from="1608922926117" duration="9298000" />
+      <workItem from="1609011795946" duration="347000" />
     </task>
     <servers />
   </component>
