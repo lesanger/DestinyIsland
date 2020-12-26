@@ -20,7 +20,7 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: StylizedWater
+  m_Name: M_Water
   m_Shader: {fileID: -6465566751694194690, guid: 5451b72dd424bfd419148bd636ba825c, type: 3}
   m_ShaderKeywords: 
   m_LightmapFlags: 4
@@ -91,11 +91,11 @@ Material:
     m_Floats:
     - Vector1_20c3c6b04892491c8b8e2c4715dab25d: 1
     - Vector1_5e06a265d9504f2483299f37454d1050: 100
-    - Vector1_780939d889064ec1804fa45419e9bd89: 2
+    - Vector1_780939d889064ec1804fa45419e9bd89: 0.5
     - Vector1_a6cc882c26f84f698daad8133607c808: 10
     - Vector1_b5be51d119ef4bdba19a2e6b90415222: 1
     - Vector1_da130b4997e744cfb5dffb2c1eaf6cfa: 0.03
-    - Vector1_f3a2aa56039248308c193eda02f87f3e: 1.5
+    - Vector1_f3a2aa56039248308c193eda02f87f3e: 2
     - Vector1_fde8df8eae4043348c6d77a2a9b3134a: 1
     - _AlphaClip: 0
     - _Blend: 0

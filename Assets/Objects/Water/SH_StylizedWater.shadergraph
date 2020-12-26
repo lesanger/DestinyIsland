@@ -940,7 +940,7 @@
     "m_Group": {
         "m_Id": "719cb06f740d4ebb89748592da36072b"
     },
-    "m_Name": "Movement",
+    "m_Name": "SH_Movement_SG",
     "m_DrawState": {
         "m_Expanded": true,
         "m_Position": {
@@ -2171,7 +2171,7 @@
     "m_Group": {
         "m_Id": ""
     },
-    "m_Name": "Movement",
+    "m_Name": "SH_Movement_SG",
     "m_DrawState": {
         "m_Expanded": true,
         "m_Position": {
@@ -2784,7 +2784,7 @@
     "m_Group": {
         "m_Id": "a73c48b034144ae8817e9dc4671d849f"
     },
-    "m_Name": "DepthFade",
+    "m_Name": "SH_DepthFade_SG",
     "m_DrawState": {
         "m_Expanded": true,
         "m_Position": {
@@ -3463,7 +3463,7 @@
         "m_Expanded": true,
         "m_Position": {
             "serializedVersion": "2",
-            "x": -399.99993896484377,
+            "x": -368.9999084472656,
             "y": 492.0,
             "width": 136.0,
             "height": 34.0
@@ -3539,7 +3539,7 @@
     "m_Group": {
         "m_Id": ""
     },
-    "m_Name": "DepthFade",
+    "m_Name": "SH_DepthFade_SG",
     "m_DrawState": {
         "m_Expanded": true,
         "m_Position": {
