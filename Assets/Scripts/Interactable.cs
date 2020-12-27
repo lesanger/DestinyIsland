@@ -14,4 +14,4 @@ public class Interactable : ScriptableObject
     public new string name;
     public Sprite artwork;
 }
-public enum Type { chair, npc };
+public enum Type { chair, npc, button };
