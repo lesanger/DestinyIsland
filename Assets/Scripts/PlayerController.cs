@@ -175,7 +175,7 @@ public class PlayerController : MonoBehaviour
         }
         else if (Input.GetButtonDown("Fire1"))
         {
-            //Debug.Log("Взаимодействую...");
+            // Debug.Log("Взаимодействую...");
             RaycastHit hit;
             Ray ray = GetComponentInChildren<Camera>().ScreenPointToRay(Input.mousePosition);
             if (Physics.Raycast(ray, out hit, interactDistance))

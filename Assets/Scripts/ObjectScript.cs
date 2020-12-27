@@ -18,6 +18,12 @@ public class ObjectScript : MonoBehaviour
     {
         Debug.Log("Нажал на кнопку");
         player.transform.position = spawnPos.transform.position;
-        player.transform.rotation = spawnPos.transform.rotation;
+        
+        // Запускам триггер для анимации
+    }
+
+    private void ButtonAnimation()
+    {
+        
     }
 }
