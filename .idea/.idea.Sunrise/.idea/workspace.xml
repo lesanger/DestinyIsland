@@ -20,56 +20,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="796ede43-dde9-43bc-a53a-4c0f6fe33703" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Assets/Objects/Control Button.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Objects/Control Button/Buttons.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Objects/Control Button/Buttons/Button 1.mtl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Objects/Control Button/Buttons/Button 1.mtl.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Objects/Control Button/Buttons/Button 1.obj" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Objects/Control Button/Buttons/Button 1.obj.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Objects/Control Button/Buttons/Button 1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Objects/Control Button/Buttons/Button 1.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Objects/Control Button/Buttons/defaultMat.mat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Objects/Control Button/Buttons/defaultMat.mat.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Objects/Data/Buttons.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Objects/Data/Buttons/Button 1.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Objects/Data/Buttons/Button 1.asset.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Objects/Data/Buttons/Button 2.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Objects/Data/Buttons/Button 2.asset.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Objects/Data/Buttons/Button 3.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Objects/Data/Buttons/Button 3.asset.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Objects/Data/Buttons/Button 4.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Objects/Data/Buttons/Button 4.asset.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Objects/Data/Buttons/Button 5.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Objects/Data/Buttons/Button 5.asset.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Objects/Data/Buttons/Button 6.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Objects/Data/Buttons/Button 6.asset.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Objects/Data/Buttons/Button 7.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Objects/Data/Buttons/Button 7.asset.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Objects/Data/Buttons/Button Beach.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Objects/Data/Buttons/Button Beach.asset.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Objects/Data/Npc.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Objects/Data/Npc/AS_Npc.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Objects/Data/Npc/AS_Npc.asset.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Objects/Data/Other.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Objects/Data/Other/180210.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Objects/Data/Other/180210.jpg.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Objects/Data/Other/AS_Chair.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Objects/Data/Other/AS_Chair.asset.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Sunrise/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Sunrise/.idea/contentModel.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Sunrise/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Sunrise/.idea/indexLayout.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Sunrise/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Sunrise/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Objects/Data/180210.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Objects/Data/180210.jpg.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Objects/Data/AS_Chair.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Objects/Data/AS_Chair.asset.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Objects/Data/AS_Npc.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Objects/Data/AS_Npc.asset.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Objects/Elevator/Elevator.obj" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Objects/Elevator/Elevator.obj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Objects/Room/ElevatorInRoom.obj" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Objects/Room/ElevatorInRoom.obj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Interactable.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Interactable.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/ObjectScript.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/ObjectScript.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/PlayerController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/PlayerController.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -144,7 +95,7 @@
       <workItem from="1608922926117" duration="9298000" />
       <workItem from="1609011795946" duration="347000" />
       <workItem from="1609090312840" duration="369000" />
-      <workItem from="1609091423347" duration="2305000" />
+      <workItem from="1609091423347" duration="2876000" />
     </task>
     <servers />
   </component>

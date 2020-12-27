@@ -8,6 +8,7 @@ public class ObjectScript : MonoBehaviour
     public Transform spawnPos;
 
     private GameObject player;
+    
     void Start()
     {
         player = GameObject.FindWithTag("Player");
