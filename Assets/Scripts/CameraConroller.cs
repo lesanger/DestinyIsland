@@ -21,6 +21,11 @@ public class CameraConroller : MonoBehaviour
         isSitting = false;
     }
 
+    public void ResetCamera()
+    {
+        xRotation = 0f;
+    }
+
     void Update()
     {
         if (canMove)

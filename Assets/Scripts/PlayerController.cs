@@ -156,9 +156,13 @@ public class PlayerController : MonoBehaviour
             if (Input.GetButtonDown("Fire1"))
             {
                 Debug.Log("Я согласился с " + lastNPC.data.name);
+
+                lastNPC.TalkIsDone();
+                
                 lastNPC = null;
                 isTalking = false;
                 canMove = true;
+                
                 talkPanel.GetComponent<Image>().sprite = null;
                 talkPanel.SetActive(false);
             }
@@ -166,16 +170,17 @@ public class PlayerController : MonoBehaviour
             if (Input.GetButtonDown("Fire2"))
             {
                 Debug.Log("Я отказался от предложения " + lastNPC.data.name);
+                
                 lastNPC = null;
                 isTalking = false;
                 canMove = true;
+                
                 talkPanel.GetComponent<Image>().sprite = null;
                 talkPanel.SetActive(false);
             }
         }
         else if (Input.GetButtonDown("Fire1"))
         {
-            // Debug.Log("Взаимодействую...");
             RaycastHit hit;
             Ray ray = GetComponentInChildren<Camera>().ScreenPointToRay(Input.mousePosition);
             if (Physics.Raycast(ray, out hit, interactDistance))
