@@ -11,6 +11,7 @@ public class ObjectScript : MonoBehaviour
     private GameObject player;
     private GameObject mainCamera;
     public GameObject model;
+    private GameObject buttonsManager;
 
     private float countToDeath = 3f;
     private float inWhatTimeDie;
@@ -20,6 +21,7 @@ public class ObjectScript : MonoBehaviour
     {
         player = GameObject.FindWithTag("Player");
         mainCamera = GameObject.FindWithTag("MainCamera");
+        buttonsManager = GameObject.FindWithTag("ButtonsManager");
     }
 
     private void Update()
@@ -50,6 +52,12 @@ public class ObjectScript : MonoBehaviour
         if (mainCamera.TryGetComponent<CameraConroller>(out CameraConroller cameraController))
         {
             cameraController.ResetCamera();
+        }
+
+        if (buttonsManager.TryGetComponent<ButtonsManager>(out ButtonsManager manager))
+        {
+            manager.buttonsCounter += 1;
+            Debug.Log("Количество сгоревших кнопок равно: " + manager.buttonsCounter);
         }
 
         timeToDeath = true;
