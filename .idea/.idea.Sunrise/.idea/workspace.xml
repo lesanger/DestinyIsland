@@ -20,10 +20,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="796ede43-dde9-43bc-a53a-4c0f6fe33703" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Assets/Assets_MannequinsFemale.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Sunrise/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Sunrise/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Sunrise/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Sunrise/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,6 +43,7 @@
       <option value="$PROJECT_DIR$/Assets/Scripts/CameraConroller.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/ObjectScript.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/ButtonsManager.cs" />
+      <option value="$PROJECT_DIR$/Assets/Assets_MannequinsFemale/scripts/MannequinFemale.cs" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="1lz3zjs0IM95gjeeFlz84KnnBcP" />
@@ -103,6 +102,7 @@
       <workItem from="1609091423347" duration="3945000" />
       <workItem from="1609169295006" duration="49000" />
       <workItem from="1609183430713" duration="8535000" />
+      <workItem from="1609248177361" duration="797000" />
     </task>
     <servers />
   </component>
