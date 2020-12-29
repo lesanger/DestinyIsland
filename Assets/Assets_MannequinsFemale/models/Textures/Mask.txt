@@ -1,0 +1,20 @@
+
+dress-1				1
+dress-2				2
+dress-3				5
+dress-4				2
+dress-5				4
+dress-6				5
+hoody				6
+shirtbutton			6
+shirtracerback			0
+suitjacket-1			6
+suitjacket-2			6
+t-shirt				8
+
+jeans				7
+leggings			7
+pants				7
+shorts				0
+skirt				0
+sweatpants			7

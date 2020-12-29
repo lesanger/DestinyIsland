@@ -20,8 +20,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="796ede43-dde9-43bc-a53a-4c0f6fe33703" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Assets/Assets_MannequinsFemale.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Sunrise/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Sunrise/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Sunrise/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Sunrise/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/ButtonsManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/ButtonsManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -100,7 +102,7 @@
       <workItem from="1609090312840" duration="369000" />
       <workItem from="1609091423347" duration="3945000" />
       <workItem from="1609169295006" duration="49000" />
-      <workItem from="1609183430713" duration="8439000" />
+      <workItem from="1609183430713" duration="8535000" />
     </task>
     <servers />
   </component>
