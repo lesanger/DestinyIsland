@@ -17,7 +17,6 @@ public class CameraConroller : MonoBehaviour
     void Start()
     {
         canMove = true;
-        Cursor.lockState = CursorLockMode.Locked;
         isSitting = false;
     }
 

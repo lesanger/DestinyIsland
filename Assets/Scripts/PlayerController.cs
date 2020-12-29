@@ -29,8 +29,10 @@ public class PlayerController : MonoBehaviour
     private ObjectScript lastChair;
     private ObjectScript lastNPC;
     private bool isSitting = false;
-    private bool canMove = true;
     private bool isTalking = false;
+    
+    [HideInInspector]
+    public bool canMove = true;
 
 
     [Header("Камера")]

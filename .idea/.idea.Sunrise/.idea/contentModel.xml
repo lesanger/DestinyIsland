@@ -23,6 +23,7 @@
           <e p="ObjectScript.cs" t="Include" />
           <e p="PlayerController.cs" t="Include" />
           <e p="SoundCameraHolder.cs" t="Include" />
+          <e p="UI.cs" t="Include" />
         </e>
         <e p="Skybox" t="Include">
           <e p="readme.txt" t="Include" />
