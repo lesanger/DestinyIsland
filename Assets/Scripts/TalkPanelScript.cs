@@ -20,4 +20,9 @@ public class TalkPanelScript : MonoBehaviour
     {
         PlayerController.instance.NegativeTalk();
     }
+
+    public void Deactivate()
+    {
+        gameObject.SetActive(false);
+    }
 }

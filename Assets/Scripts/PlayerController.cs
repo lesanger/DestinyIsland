@@ -123,7 +123,6 @@ public class PlayerController : MonoBehaviour
         canMove = true;
         
         talkPanel.GetComponent<Image>().sprite = null;
-        talkPanel.SetActive(false);
     }
 
     public void NegativeTalk()
@@ -135,7 +134,6 @@ public class PlayerController : MonoBehaviour
         canMove = true;
         
         talkPanel.GetComponent<Image>().sprite = null;
-        talkPanel.SetActive(false);
     }
 
     void CameraHolderAnimator()
