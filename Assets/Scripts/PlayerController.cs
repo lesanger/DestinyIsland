@@ -36,21 +36,30 @@ public class PlayerController : MonoBehaviour
 
 
     [Header("Камера")]
-    public Transform cameraObject;
+    public GameObject cameraObject;
     private Animator animator;
 
     [Header("Инвентарь")]
     public List<Interactable> inventory = new List<Interactable>();
+    
+    public static PlayerController instance;
 
     void Awake()
 	{
-        talkPanel.SetActive(false);
-        
-        controller = GetComponent<CharacterController>();
-        animator = GetComponentInChildren<Animator>();
-        
-        QualitySettings.vSyncCount = 0;
-        Application.targetFrameRate = -1;
+        if (instance == null){
+
+            instance = this;
+            //DontDestroyOnLoad(this.gameObject);
+            talkPanel.SetActive(false);
+            
+            controller = GetComponent<CharacterController>();
+            animator = GetComponentInChildren<Animator>();
+            
+            QualitySettings.vSyncCount = 0;
+            Application.targetFrameRate = -1;
+        } else {
+            Destroy(this);
+        }
     }
 
     void Update()
@@ -59,6 +68,18 @@ public class PlayerController : MonoBehaviour
         
         Inputs();
         CameraHolderAnimator();
+    }
+
+    public void ElevatorTeleport(Transform spawnPos)
+    {
+        gameObject.transform.position = spawnPos.position;
+        gameObject.transform.eulerAngles = spawnPos.rotation.eulerAngles;
+        
+        if (cameraObject.TryGetComponent<CameraConroller>(out CameraConroller cameraController))
+        {
+            cameraController.ResetCamera();
+        }
+
     }
 
     void Interact(ObjectScript objectScript)

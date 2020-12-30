@@ -12,10 +12,13 @@ public class ObjectScript : MonoBehaviour
     private GameObject mainCamera;
     public GameObject model;
     private GameObject buttonsManager;
+    
+    public GameObject buttonPanel;
 
     private float countToDeath = 3f;
     private float inWhatTimeDie;
     private bool timeToDeath = false;
+    
     
     void Start()
     {
@@ -35,6 +38,7 @@ public class ObjectScript : MonoBehaviour
         }
     }
 
+    // Вызывается из PlayerController после УСПЕШНОГО разговора с NPC
     public void TalkIsDone()
     {
         if (data.id != 73)
@@ -50,17 +54,15 @@ public class ObjectScript : MonoBehaviour
         }
     }
 
+    // Вызывается из PlayerController при взаимодействии с кнопкой
     public void ButtonPressed()
     {
-        player.transform.position = spawnPos.transform.position;
-        player.transform.eulerAngles = spawnPos.transform.rotation.eulerAngles;
-
         // Запускам триггер для анимации лифта
-
-        if (mainCamera.TryGetComponent<CameraConroller>(out CameraConroller cameraController))
-        {
-            cameraController.ResetCamera();
-        }
+        Animation anim = buttonPanel.GetComponent<Animation>();
+        ButtonPanelScript buttonPanelScript = buttonPanel.GetComponent<ButtonPanelScript>();
+        buttonPanelScript.spawnPosition = spawnPos;
+        
+        anim.Play();
 
         if (buttonsManager.TryGetComponent<ButtonsManager>(out ButtonsManager manager))
         {

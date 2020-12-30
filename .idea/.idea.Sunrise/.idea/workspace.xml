@@ -20,13 +20,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="796ede43-dde9-43bc-a53a-4c0f6fe33703" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Assets/Objects/Data/Npc/Data_TheGirl.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Objects/Data/Npc/Data_TheGirl.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ButtonPanelScript.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ButtonPanelScript.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/UI/Animations.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/UI/Animations/Button.anim" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/UI/Animations/Button.anim.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Sunrise/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Sunrise/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Sunrise/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Sunrise/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/ButtonsManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/ButtonsManager.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/ObjectScript.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/ObjectScript.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/UI.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/UI.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/PlayerController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/PlayerController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,6 +39,14 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
   </component>
   <component name="IdeDocumentHistory">
     <changedPaths>
@@ -45,11 +57,13 @@
       <option value="$PROJECT_DIR$/Assets/Player/PlayerController.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Interactable.cs" />
       <option value="$PROJECT_DIR$/Assets/Assets_MannequinsFemale/scripts/MannequinFemale.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scripts/PlayerController.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/CameraConroller.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/ButtonsManager.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scripts/ObjectScript.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/UI.cs" />
+      <option value="$PROJECT_DIR$/Assets/ButtonPanel.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/ObjectScript.cs" />
+      <option value="$PROJECT_DIR$/Assets/ButtonPanelScript.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/PlayerController.cs" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="1lz3zjs0IM95gjeeFlz84KnnBcP" />
@@ -117,7 +131,8 @@
       <workItem from="1609169295006" duration="49000" />
       <workItem from="1609183430713" duration="8535000" />
       <workItem from="1609248177361" duration="6796000" />
-      <workItem from="1609325605885" duration="9026000" />
+      <workItem from="1609325605885" duration="10429000" />
+      <workItem from="1609342169581" duration="2055000" />
     </task>
     <servers />
   </component>
