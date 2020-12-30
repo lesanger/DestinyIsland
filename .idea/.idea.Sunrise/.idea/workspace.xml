@@ -19,15 +19,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="796ede43-dde9-43bc-a53a-4c0f6fe33703" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Sunrise/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Sunrise/.idea/contentModel.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Sunrise/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Sunrise/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/PlayerController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/PlayerController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/TalkPanelScript.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/TalkPanelScript.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UI/Animations/NegativeTalking.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/UI/Animations/NegativeTalking.anim" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UI/Animations/PositiveTalking.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/UI/Animations/PositiveTalking.anim" afterDir="false" />
-    </list>
+    <list default="true" id="796ede43-dde9-43bc-a53a-4c0f6fe33703" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -131,7 +123,7 @@
       <workItem from="1609248177361" duration="6796000" />
       <workItem from="1609325605885" duration="10429000" />
       <workItem from="1609342169581" duration="7392000" />
-      <workItem from="1609358930595" duration="314000" />
+      <workItem from="1609358930595" duration="968000" />
     </task>
     <servers />
   </component>
