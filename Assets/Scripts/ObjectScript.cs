@@ -47,7 +47,7 @@ public class ObjectScript : MonoBehaviour
         player.transform.position = spawnPos.transform.position;
         player.transform.eulerAngles = spawnPos.transform.rotation.eulerAngles;
 
-        // Запускам триггер для анимации лифта HUD
+        // Запускам триггер для анимации лифта
 
         if (mainCamera.TryGetComponent<CameraConroller>(out CameraConroller cameraController))
         {
