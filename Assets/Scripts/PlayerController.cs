@@ -86,40 +86,7 @@ public class PlayerController : MonoBehaviour
 	{
         if (objectScript.data.type == Type.chair)
         {
-            /*if (isSitting)
-            {
-                Debug.Log("Standing up");
-
-                Transform cameraHolder = gameObject.transform.GetChild(0);
-
-                cameraObject.parent = cameraHolder;
-                cameraObject.position = cameraHolder.position;
-                cameraObject.GetComponent<CameraConroller>().StandUp();
-
-                cameraObject.GetComponent<CameraConroller>().isSitting = false;
-                isSitting = false;
-            }
-            else
-            {
-                Debug.Log("Sitting down");
-
-                Transform cameraPlace = objectScript.transform.GetChild(0).transform;
-                Transform playerPlace = objectScript.transform.GetChild(1).transform;
-
-                cameraObject.parent = cameraPlace;
-                cameraObject.position = cameraPlace.position;
-                cameraObject.GetComponent<CameraConroller>().SitDown();
-
-                cameraObject.GetComponent<CameraConroller>().isSitting = true;
-                isSitting = true;
-
-                gameObject.transform.position = playerPlace.position;
-                gameObject.transform.rotation = playerPlace.rotation;
-
-                lastChair = objectScript;
-
-                inventory.Add(objectScript.data);
-            }*/
+            Debug.Log("Сажусь...");
         }
         else if (objectScript.data.type == Type.npc)
         {
@@ -128,14 +95,31 @@ public class PlayerController : MonoBehaviour
             lastNPC = objectScript;
 
             talkPanel.SetActive(true);
-            talkPanel.GetComponent<Image>().sprite = lastNPC.data.artwork;
-
-            Debug.Log("Я разговариваю с " + objectScript.data.name);
+            
+            // Анимация начала разговора
+            talkPanel.GetComponent<Animation>().Play("Talking");
         }
         else if (objectScript.data.type == Type.button)
         {
             objectScript.ButtonPressed();
         }
+    }
+
+    public void Talk()
+    {
+        // Выводится черный экран с именем греха, потом черный экран плавно заменяется картиной греха и появляются описания кнопок
+        talkPanel.GetComponent<Image>().sprite = lastNPC.data.artwork;
+        Debug.Log("Я разговариваю с " + lastNPC.data.name);
+    }
+
+    public void PositiveTalk()
+    {
+        
+    }
+
+    public void NegativeTalk()
+    {
+        
     }
 
     void CameraHolderAnimator()

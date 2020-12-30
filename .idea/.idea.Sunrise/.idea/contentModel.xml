@@ -6,7 +6,6 @@
     <e p="D:\Projects\Unity Projects\Sunrise" t="IncludeRecursive">
       <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
       <e p="Assets" t="Include">
-        <e p="ButtonPanelScript.cs" t="Include" />
         <e p="Objects" t="Include">
           <e p="Assests" t="Include">
             <e p="Mannequins" t="Include">
@@ -28,6 +27,7 @@
           </e>
         </e>
         <e p="Scripts" t="Include">
+          <e p="ButtonPanelScript.cs" t="Include" />
           <e p="ButtonsManager.cs" t="Include" />
           <e p="CameraConroller.cs" t="Include" />
           <e p="Interactable.cs" t="Include" />
@@ -36,6 +36,7 @@
           <e p="SoundCameraHolder.cs" t="Include" />
           <e p="UI.cs" t="Include" />
         </e>
+        <e p="TalkPanelScript.cs" t="Include" />
       </e>
       <e p="obj" t="ExcludeRecursive" />
       <e p="Packages" t="ExcludeRecursive" />

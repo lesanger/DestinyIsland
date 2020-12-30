@@ -48,28 +48,30 @@ public class ObjectScript : MonoBehaviour
             Destroy(gameObject);
         }
         
+        // Если NPC - девушка
         if (data.id == 73)
         {
             UI.instance.SetEndGameScreen();
         }
     }
 
-    // Вызывается из PlayerController при взаимодействии с кнопкой
+    // Вызывается из PlayerController при взаимодействии с КНОПКОЙ
     public void ButtonPressed()
     {
-        // Запускам триггер для анимации лифта
+        // Анимация лифта
         Animation anim = buttonPanel.GetComponent<Animation>();
         ButtonPanelScript buttonPanelScript = buttonPanel.GetComponent<ButtonPanelScript>();
         buttonPanelScript.spawnPosition = spawnPos;
-        
         anim.Play();
 
+        // Счетчик использованных кнопок
         if (buttonsManager.TryGetComponent<ButtonsManager>(out ButtonsManager manager))
         {
             manager.buttonsCounter += 1;
             Debug.Log("Количество сгоревших кнопок равно: " + manager.buttonsCounter);
         }
 
+        // Убираем использованную кнопку
         timeToDeath = true;
         inWhatTimeDie = Time.time + countToDeath;
     }
