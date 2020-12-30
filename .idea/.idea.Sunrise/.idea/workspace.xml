@@ -20,14 +20,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="796ede43-dde9-43bc-a53a-4c0f6fe33703" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Assets/TalkPanelScript.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/UI/Animations/Talking.anim" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/UI/Animations/Talking.anim.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Sunrise/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Sunrise/.idea/contentModel.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/UI/Animations/NegativeTalking.anim" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/UI/Animations/NegativeTalking.anim.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/UI/Animations/PositiveTalking.anim" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/UI/Animations/PositiveTalking.anim.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Sunrise/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Sunrise/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/ObjectScript.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/ObjectScript.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/PlayerController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/PlayerController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TalkPanelScript.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TalkPanelScript.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/UI/Animations/Talking.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/UI/Animations/Talking.anim" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,9 +64,9 @@
       <option value="$PROJECT_DIR$/Assets/Scripts/UI.cs" />
       <option value="$PROJECT_DIR$/Assets/ButtonPanel.cs" />
       <option value="$PROJECT_DIR$/Assets/ButtonPanelScript.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scripts/ObjectScript.cs" />
-      <option value="$PROJECT_DIR$/Assets/TalkPanelScript.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/PlayerController.cs" />
+      <option value="$PROJECT_DIR$/Assets/TalkPanelScript.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/ObjectScript.cs" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="1lz3zjs0IM95gjeeFlz84KnnBcP" />
@@ -133,7 +135,7 @@
       <workItem from="1609183430713" duration="8535000" />
       <workItem from="1609248177361" duration="6796000" />
       <workItem from="1609325605885" duration="10429000" />
-      <workItem from="1609342169581" duration="4963000" />
+      <workItem from="1609342169581" duration="7185000" />
     </task>
     <servers />
   </component>

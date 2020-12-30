@@ -43,7 +43,6 @@ public class ObjectScript : MonoBehaviour
     {
         if (data.id != 73)
         {
-            Debug.Log("Разговор окончен");
             model.SetActive(true);
             Destroy(gameObject);
         }

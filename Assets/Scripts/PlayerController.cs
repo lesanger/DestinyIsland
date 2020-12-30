@@ -114,12 +114,28 @@ public class PlayerController : MonoBehaviour
 
     public void PositiveTalk()
     {
+        Debug.Log("Я согласился с " + lastNPC.data.name);
+
+        lastNPC.TalkIsDone();
+                
+        lastNPC = null;
+        isTalking = false;
+        canMove = true;
         
+        talkPanel.GetComponent<Image>().sprite = null;
+        talkPanel.SetActive(false);
     }
 
     public void NegativeTalk()
     {
+        Debug.Log("Я отказался от предложения " + lastNPC.data.name);
+                
+        lastNPC = null;
+        isTalking = false;
+        canMove = true;
         
+        talkPanel.GetComponent<Image>().sprite = null;
+        talkPanel.SetActive(false);
     }
 
     void CameraHolderAnimator()
@@ -162,28 +178,12 @@ public class PlayerController : MonoBehaviour
         {
             if (Input.GetButtonDown("Fire1"))
             {
-                Debug.Log("Я согласился с " + lastNPC.data.name);
-
-                lastNPC.TalkIsDone();
-                
-                lastNPC = null;
-                isTalking = false;
-                canMove = true;
-                
-                talkPanel.GetComponent<Image>().sprite = null;
-                talkPanel.SetActive(false);
+                talkPanel.GetComponent<Animation>().Play("PositiveTalking");
             }
             
             if (Input.GetButtonDown("Fire2"))
             {
-                Debug.Log("Я отказался от предложения " + lastNPC.data.name);
-                
-                lastNPC = null;
-                isTalking = false;
-                canMove = true;
-                
-                talkPanel.GetComponent<Image>().sprite = null;
-                talkPanel.SetActive(false);
+                talkPanel.GetComponent<Animation>().Play("NegativeTalking");
             }
         }
         else if (Input.GetButtonDown("Fire1"))

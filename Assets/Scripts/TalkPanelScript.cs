@@ -8,7 +8,16 @@ public class TalkPanelScript : MonoBehaviour
 
     public void TalkStart()
     {
-        Debug.Log("Анимация прошла");
         PlayerController.instance.Talk();
+    }
+
+    public void PositiveTalk()
+    {
+        PlayerController.instance.PositiveTalk();
+    }
+
+    public void NegativeTalk()
+    {
+        PlayerController.instance.NegativeTalk();
     }
 }
