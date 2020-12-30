@@ -8,7 +8,7 @@ public class ButtonsManager : MonoBehaviour
     public int buttonsCounter = 0;
     private bool isGirlExist = false;
 
-    public GameObject[] pointLights;  
+    public GameObject[] pointLights;
 
     void Update()
     {

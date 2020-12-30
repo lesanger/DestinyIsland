@@ -5,6 +5,7 @@ using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.Audio;
 using System.Linq;
+using UnityEngine.SceneManagement;
 
 public class UI : MonoBehaviour
 {
@@ -16,6 +17,7 @@ public class UI : MonoBehaviour
     public GameObject PausePanel;
     public GameObject SettingsPanel;
     public GameObject AuthorsPanel;
+    public GameObject EndGamePanel;
 
     public AudioMixer audioMixer;
     public Dropdown resolutionDropdown;
@@ -24,23 +26,38 @@ public class UI : MonoBehaviour
     private GameObject previousPanel;
     
     private Resolution[] resolutions;
+    
+    public static UI instance;
+    
     void Awake()
     {
-        player = GameObject.FindGameObjectWithTag("Player");
-        if (player.TryGetComponent<PlayerController>(out PlayerController playerController))
-        {
-            playerController.canMove = false;
+        
+        if (instance == null){
+
+            instance = this;
+            //DontDestroyOnLoad(this.gameObject);
+    
+            player = GameObject.FindGameObjectWithTag("Player");
+            if (player.TryGetComponent<PlayerController>(out PlayerController playerController))
+            {
+                playerController.canMove = false;
+            }
+        
+            Cursor.lockState = CursorLockMode.None;
+        
+            HUD.SetActive(false);
+            MainMenuPanel.SetActive(true);
+            PausePanel.SetActive(false);
+            SettingsPanel.SetActive(false);
+            AuthorsPanel.SetActive(false);
+            EndGamePanel.SetActive(false);
+
+            currentPanel = MainMenuPanel;
+    
+        } else {
+            Destroy(this);
         }
         
-        Cursor.lockState = CursorLockMode.None;
-        
-        HUD.SetActive(false);
-        MainMenuPanel.SetActive(true);
-        PausePanel.SetActive(false);
-        SettingsPanel.SetActive(false);
-        AuthorsPanel.SetActive(false);
-
-        currentPanel = MainMenuPanel;
     }
 
     void Start()
@@ -98,16 +115,30 @@ public class UI : MonoBehaviour
             {
                 SettingsPanel.SetActive(false);
                 MainMenuPanel.SetActive(true);
+                currentPanel = MainMenuPanel;
             }
 
             if (currentPanel == AuthorsPanel)
             {
                 AuthorsPanel.SetActive(false);
                 MainMenuPanel.SetActive(true);
+                currentPanel = MainMenuPanel;
+            }
+            
+            if (currentPanel == EndGamePanel)
+            {
+                Debug.Log("Перезагрузить игру");
+                SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
             }
         }
     }
 
+    public void SetEndGameScreen()
+    {
+        currentPanel = EndGamePanel;
+        HUD.SetActive(false);
+        EndGamePanel.SetActive(true);
+    }
 
     // Main menu buttons
     public void ExperienceButton()

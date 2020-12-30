@@ -37,9 +37,17 @@ public class ObjectScript : MonoBehaviour
 
     public void TalkIsDone()
     {
-        Debug.Log("Разговор окончен");
-        model.SetActive(true);
-        Destroy(gameObject);
+        if (data.id != 73)
+        {
+            Debug.Log("Разговор окончен");
+            model.SetActive(true);
+            Destroy(gameObject);
+        }
+        
+        if (data.id == 73)
+        {
+            UI.instance.SetEndGameScreen();
+        }
     }
 
     public void ButtonPressed()
