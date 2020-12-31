@@ -1571,6 +1571,7 @@ Animation:
   m_Animation: {fileID: 7400000, guid: d4642fec54d7df04fbea129b7302584a, type: 2}
   m_Animations:
   - {fileID: 7400000, guid: d4642fec54d7df04fbea129b7302584a, type: 2}
+  - {fileID: 7400000, guid: 180d71cb01fe2204fa25d5a23c0921fe, type: 2}
   m_WrapMode: 0
   m_PlayAutomatically: 0
   m_AnimatePhysics: 0
@@ -11346,6 +11347,7 @@ MonoBehaviour:
   EndGamePanel: {fileID: 1048729123}
   audioMixer: {fileID: 24100000, guid: 7f5da15c3a72ba54ca6ab8f1008a3665, type: 2}
   resolutionDropdown: {fileID: 411662102}
+  buttonPanel: {fileID: 247194627}
   theGirl: {fileID: 1558192227}
 --- !u!1001 &1949677052
 PrefabInstance:

@@ -24,6 +24,8 @@ public class UI : MonoBehaviour
 
     private GameObject currentPanel;
     private GameObject previousPanel;
+
+    public GameObject buttonPanel;
     
     private Resolution[] resolutions;
     
@@ -55,10 +57,8 @@ public class UI : MonoBehaviour
             EndGamePanel.SetActive(false);
 
             currentPanel = MainMenuPanel;
-
-            
-    
-        } else {
+        } 
+        else {
             Destroy(this);
         }
         
@@ -161,9 +161,14 @@ public class UI : MonoBehaviour
         
         if (firstTimeLaucnh)
         {
-            theGirl.SetActive(false);
-            firstTimeLaucnh = false;
+            buttonPanel.GetComponent<Animation>().Play("FirstTimeLoad");
         }
+    }
+
+    public void FirstTimeLoad()
+    {
+        theGirl.SetActive(false);
+        firstTimeLaucnh = false;
     }
 
     public void SettingsButton()

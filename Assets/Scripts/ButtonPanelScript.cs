@@ -9,5 +9,10 @@ public class ButtonPanelScript : MonoBehaviour
     public void TeleportPlayer()
     {
         PlayerController.instance.ElevatorTeleport(spawnPosition);
-    } 
+    }
+
+    public void FirstTimeLoad()
+    {
+        UI.instance.FirstTimeLoad();
+    }
 }
