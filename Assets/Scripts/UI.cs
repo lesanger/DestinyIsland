@@ -98,9 +98,23 @@ public class UI : MonoBehaviour
     {
         if (Input.GetButtonDown("Cancel"))
         {
-            if (currentPanel == MainMenuPanel)
+            if (currentPanel == MainMenuPanel && firstTimeLaucnh == true)
             {
                 Debug.Log("Нельзя выйти из главного меню");
+            }
+            else if (currentPanel == MainMenuPanel && firstTimeLaucnh == false)
+            {
+                HUD.SetActive(true);
+                MainMenuPanel.SetActive(false);
+        
+                Cursor.lockState = CursorLockMode.Locked;
+        
+                if (player.TryGetComponent<PlayerController>(out PlayerController playerController))
+                {
+                    playerController.canMove = true;
+                }
+
+                currentPanel = HUD;
             }
 
             if (currentPanel == HUD)
@@ -137,6 +151,42 @@ public class UI : MonoBehaviour
             {
                 Debug.Log("Перезагрузить игру");
                 SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+            }
+        }
+        
+        if (Input.GetButtonDown("Fire2"))
+        {
+            if (currentPanel == MainMenuPanel && firstTimeLaucnh == true)
+            {
+                Debug.Log("Нельзя выйти из главного меню");
+            }
+            else if (currentPanel == MainMenuPanel && firstTimeLaucnh == false)
+            {
+                HUD.SetActive(true);
+                MainMenuPanel.SetActive(false);
+        
+                Cursor.lockState = CursorLockMode.Locked;
+        
+                if (player.TryGetComponent<PlayerController>(out PlayerController playerController))
+                {
+                    playerController.canMove = true;
+                }
+
+                currentPanel = HUD;
+            }
+
+            if (currentPanel == SettingsPanel)
+            {
+                SettingsPanel.SetActive(false);
+                MainMenuPanel.SetActive(true);
+                currentPanel = MainMenuPanel;
+            }
+
+            if (currentPanel == AuthorsPanel)
+            {
+                AuthorsPanel.SetActive(false);
+                MainMenuPanel.SetActive(true);
+                currentPanel = MainMenuPanel;
             }
         }
     }
