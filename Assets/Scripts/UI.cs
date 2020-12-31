@@ -26,29 +26,30 @@ public class UI : MonoBehaviour
     private GameObject previousPanel;
 
     public GameObject buttonPanel;
-    
+
     private Resolution[] resolutions;
-    
+
     public static UI instance;
 
     private bool firstTimeLaucnh = true;
     public GameObject theGirl;
-    
+
     void Awake()
     {
-        if (instance == null){
+        if (instance == null)
+        {
 
             instance = this;
             //DontDestroyOnLoad(this.gameObject);
-    
+
             player = GameObject.FindGameObjectWithTag("Player");
             if (player.TryGetComponent<PlayerController>(out PlayerController playerController))
             {
                 playerController.canMove = false;
             }
-        
+
             Cursor.lockState = CursorLockMode.None;
-        
+
             HUD.SetActive(false);
             MainMenuPanel.SetActive(true);
             PausePanel.SetActive(false);
@@ -57,34 +58,37 @@ public class UI : MonoBehaviour
             EndGamePanel.SetActive(false);
 
             currentPanel = MainMenuPanel;
-        } 
-        else {
+        }
+        else
+        {
             Destroy(this);
         }
-        
+
     }
 
     void Start()
     {
-        resolutions = Screen.resolutions.Select(resolution => new Resolution { width = resolution.width, height = resolution.height }).Distinct().ToArray();
-        
+        resolutions = Screen.resolutions
+            .Select(resolution => new Resolution {width = resolution.width, height = resolution.height}).Distinct()
+            .ToArray();
+
         resolutionDropdown.ClearOptions();
 
         List<string> options = new List<string>();
 
-        int currentResolutionIndex = 0;        
+        int currentResolutionIndex = 0;
         for (int i = 0; i < resolutions.Length; i++)
         {
             string option = resolutions[i].width + " x " + resolutions[i].height;
             options.Add(option);
 
-            if (resolutions[i].width == Screen.width && 
+            if (resolutions[i].width == Screen.width &&
                 resolutions[i].height == Screen.height)
             {
                 currentResolutionIndex = i;
             }
         }
-        
+
         resolutionDropdown.AddOptions(options);
         resolutionDropdown.value = currentResolutionIndex;
         resolutionDropdown.RefreshShownValue();
@@ -103,13 +107,13 @@ public class UI : MonoBehaviour
             {
                 HUD.SetActive(false);
                 MainMenuPanel.SetActive(true);
-                
+
                 player = GameObject.FindGameObjectWithTag("Player");
                 if (player.TryGetComponent<PlayerController>(out PlayerController playerController))
                 {
                     playerController.canMove = false;
                 }
-        
+
                 Cursor.lockState = CursorLockMode.None;
 
                 currentPanel = MainMenuPanel;
@@ -128,7 +132,7 @@ public class UI : MonoBehaviour
                 MainMenuPanel.SetActive(true);
                 currentPanel = MainMenuPanel;
             }
-            
+
             if (currentPanel == EndGamePanel)
             {
                 Debug.Log("Перезагрузить игру");
@@ -142,6 +146,8 @@ public class UI : MonoBehaviour
         currentPanel = EndGamePanel;
         HUD.SetActive(false);
         EndGamePanel.SetActive(true);
+        PlayerController.instance.canMove = false;
+        EndGamePanel.GetComponent<Animation>().Play();
     }
 
     // Main menu buttons
