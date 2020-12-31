@@ -50,6 +50,7 @@ public class ObjectScript : MonoBehaviour
         // Если NPC - девушка
         if (data.id == 73)
         {
+            // Запустить с анимацию выхода из игры
             UI.instance.SetEndGameScreen();
         }
     }

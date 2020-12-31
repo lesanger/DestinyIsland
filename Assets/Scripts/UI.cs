@@ -28,10 +28,12 @@ public class UI : MonoBehaviour
     private Resolution[] resolutions;
     
     public static UI instance;
+
+    private bool firstTimeLaucnh = true;
+    public GameObject theGirl;
     
     void Awake()
     {
-        
         if (instance == null){
 
             instance = this;
@@ -53,6 +55,8 @@ public class UI : MonoBehaviour
             EndGamePanel.SetActive(false);
 
             currentPanel = MainMenuPanel;
+
+            
     
         } else {
             Destroy(this);
@@ -154,6 +158,12 @@ public class UI : MonoBehaviour
         }
 
         currentPanel = HUD;
+        
+        if (firstTimeLaucnh)
+        {
+            theGirl.SetActive(false);
+            firstTimeLaucnh = false;
+        }
     }
 
     public void SettingsButton()
