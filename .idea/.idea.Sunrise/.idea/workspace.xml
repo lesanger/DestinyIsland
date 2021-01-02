@@ -20,16 +20,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="796ede43-dde9-43bc-a53a-4c0f6fe33703" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Assets/MusicGenerator.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/MusicGenerator.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Player/ANIM_Music.anim" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Player/ANIM_Music.anim.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Sunrise/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Sunrise/.idea/contentModel.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Sunrise/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Sunrise/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/ObjectScript.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/ObjectScript.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/PlayerController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/PlayerController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/UI.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/UI.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MusicGenerator.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/MusicGenerator.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,9 +55,9 @@
       <option value="$PROJECT_DIR$/Assets/Scripts/TalkPanelScript.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/ButtonPanelScript.cs" />
       <option value="$PROJECT_DIR$/Assets/EndGameScript.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scripts/ObjectScript.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/PlayerController.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/UI.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/ObjectScript.cs" />
       <option value="$PROJECT_DIR$/Assets/MusicGenerator.cs" />
     </changedPaths>
   </component>
@@ -140,7 +131,7 @@
       <workItem from="1609358930595" duration="1666000" />
       <workItem from="1609428997307" duration="10704000" />
       <workItem from="1609534083482" duration="623000" />
-      <workItem from="1609613937427" duration="2828000" />
+      <workItem from="1609613937427" duration="3183000" />
     </task>
     <servers />
   </component>

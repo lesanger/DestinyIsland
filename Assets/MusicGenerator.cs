@@ -9,7 +9,7 @@ public class MusicGenerator : MonoBehaviour
     private int partIndex = 0;
     public AudioSource mainThemeSource;
 
-    public bool[] noteAllowed;
+    private bool[] noteAllowed;
     private int allowedNotesAmount = 1;
 
     public AudioClip[] Bass;
@@ -41,6 +41,8 @@ public class MusicGenerator : MonoBehaviour
             Destroy(this);
         }
 
+        noteAllowed = new bool[8];
+        
         for (int i = 0; i < 7; i++)
         {
             noteAllowed[i] = false;
