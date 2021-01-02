@@ -1,23 +1,21 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
 public class SoundCameraHolder : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
+	private AudioSource audioSource;
+	public AudioClip audioClip;
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
-
-    public void WalkStep()
+	private void Awake()
 	{
-        //Debug.Log("Step");
+		audioSource = gameObject.GetComponent<AudioSource>();
 	}
+
+	public void WalkStep()
+    {
+	    //audioSource.PlayOneShot(audioClip);
+	    Debug.Log("Step");
+    }
 }

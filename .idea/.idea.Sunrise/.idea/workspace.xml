@@ -20,7 +20,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="796ede43-dde9-43bc-a53a-4c0f6fe33703" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/Assets/MusicGenerator.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/MusicGenerator.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Sunrise/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Sunrise/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Player/ANIM_CameraRun.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Player/ANIM_CameraRun.anim" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Player/ANIM_CameraWalk.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Player/ANIM_CameraWalk.anim" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/SoundCameraHolder.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/SoundCameraHolder.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,6 +63,7 @@
       <option value="$PROJECT_DIR$/Assets/Scripts/UI.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/ObjectScript.cs" />
       <option value="$PROJECT_DIR$/Assets/MusicGenerator.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/SoundCameraHolder.cs" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="1lz3zjs0IM95gjeeFlz84KnnBcP" />
@@ -131,7 +136,7 @@
       <workItem from="1609358930595" duration="1666000" />
       <workItem from="1609428997307" duration="10704000" />
       <workItem from="1609534083482" duration="623000" />
-      <workItem from="1609613937427" duration="3183000" />
+      <workItem from="1609613937427" duration="4052000" />
     </task>
     <servers />
   </component>
