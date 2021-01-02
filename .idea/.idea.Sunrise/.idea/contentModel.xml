@@ -6,6 +6,52 @@
     <e p="D:\Projects\Unity Projects\Sunrise" t="IncludeRecursive">
       <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
       <e p="Assets" t="Include">
+        <e p="Audio" t="Include">
+          <e p="VolumetricAudio" t="Include">
+            <e p="Documentation" t="Include">
+              <e p="VA_Guide.cs" t="Include" />
+            </e>
+            <e p="Examples" t="Include">
+              <e p="Fonts" t="Include">
+                <e p="OFL.txt" t="Include" />
+              </e>
+              <e p="Scripts" t="Include">
+                <e p="VA_BulletSpawner.cs" t="Include" />
+                <e p="VA_ChangeSpiral.cs" t="Include" />
+                <e p="VA_Freeflight.cs" t="Include" />
+                <e p="VA_Spin.cs" t="Include" />
+                <e p="VA_Spiral.cs" t="Include" />
+                <e p="VA_Wireframe.cs" t="Include" />
+              </e>
+              <e p="Shaders" t="Include">
+                <e p="VA_Skybox.shader" t="Include" />
+                <e p="VA_Solid.shader" t="Include" />
+                <e p="VA_Wireframe.shader" t="Include" />
+              </e>
+            </e>
+            <e p="Scripts" t="Include">
+              <e p="VA_AudioListener.cs" t="Include" />
+              <e p="VA_AudioSource.cs" t="Include" />
+              <e p="VA_Box.cs" t="Include" />
+              <e p="VA_Capsule.cs" t="Include" />
+              <e p="VA_Editor.cs" t="Include" />
+              <e p="VA_Helper.cs" t="Include" />
+              <e p="VA_Material.cs" t="Include" />
+              <e p="VA_Mesh.cs" t="Include" />
+              <e p="VA_MeshLinear.cs" t="Include" />
+              <e p="VA_MeshTree.cs" t="Include" />
+              <e p="VA_Path.cs" t="Include" />
+              <e p="VA_Plane.cs" t="Include" />
+              <e p="VA_PopupAttribute.cs" t="Include" />
+              <e p="VA_Shape.cs" t="Include" />
+              <e p="VA_Sphere.cs" t="Include" />
+              <e p="VA_Triangle.cs" t="Include" />
+              <e p="VA_VolumetricShape.cs" t="Include" />
+              <e p="VA_Zone.cs" t="Include" />
+            </e>
+            <e p="VolumetricAudio.asmdef" t="Include" />
+          </e>
+        </e>
         <e p="Objects" t="Include">
           <e p="Assests" t="Include">
             <e p="Mannequins" t="Include">
@@ -43,6 +89,7 @@
       <e p="Packages" t="ExcludeRecursive" />
       <e p="Sunrise.sln" t="IncludeFlat" />
       <e p="Temp\Bin" t="ExcludeRecursive" />
+      <e p="VolumetricAudio.csproj" t="IncludeRecursive" />
     </e>
   </component>
 </project>

@@ -20,7 +20,177 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="796ede43-dde9-43bc-a53a-4c0f6fe33703" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Assets/Audio/VolumetricAudio.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Audio/VolumetricAudio/Documentation.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Audio/VolumetricAudio/Documentation/Documentation.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Audio/VolumetricAudio/Documentation/Documentation.html.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Audio/VolumetricAudio/Documentation/VA_Guide.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Audio/VolumetricAudio/Documentation/VA_Guide.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Audio/VolumetricAudio/Examples.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Audio/VolumetricAudio/Examples/01 Box.unity" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Audio/VolumetricAudio/Examples/01 Box.unity.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Audio/VolumetricAudio/Examples/02 Sphere.unity" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Audio/VolumetricAudio/Examples/02 Sphere.unity.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Audio/VolumetricAudio/Examples/03 Capsule.unity" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Audio/VolumetricAudio/Examples/03 Capsule.unity.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Audio/VolumetricAudio/Examples/04 Mesh.unity" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Audio/VolumetricAudio/Examples/04 Mesh.unity.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Audio/VolumetricAudio/Examples/05    Bake.unity" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Audio/VolumetricAudio/Examples/05    Bake.unity.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Audio/VolumetricAudio/Examples/06    Dynamic.unity" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Audio/VolumetricAudio/Examples/06    Dynamic.unity.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Audio/VolumetricAudio/Examples/07 Path.unity" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Audio/VolumetricAudio/Examples/07 Path.unity.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Audio/VolumetricAudio/Examples/08 Rotating Doppler.unity" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Audio/VolumetricAudio/Examples/08 Rotating Doppler.unity.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Audio/VolumetricAudio/Examples/09 Compound Shape.unity" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Audio/VolumetricAudio/Examples/09 Compound Shape.unity.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Audio/VolumetricAudio/Examples/10 Occlusion.unity" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Audio/VolumetricAudio/Examples/10 Occlusion.unity.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Audio/VolumetricAudio/Examples/11 Zones.unity" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Audio/VolumetricAudio/Examples/11 Zones.unity.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Audio/VolumetricAudio/Examples/12 Exclusion Zones.unity" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Audio/VolumetricAudio/Examples/12 Exclusion Zones.unity.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Audio/VolumetricAudio/Examples/13 Whizzing Bullets.unity" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Audio/VolumetricAudio/Examples/13 Whizzing Bullets.unity.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Audio/VolumetricAudio/Examples/Dynamics.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Audio/VolumetricAudio/Examples/Dynamics/Default.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Audio/VolumetricAudio/Examples/Dynamics/Default.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Audio/VolumetricAudio/Examples/Dynamics/Distant.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Audio/VolumetricAudio/Examples/Dynamics/Distant.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Audio/VolumetricAudio/Examples/Fonts.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Audio/VolumetricAudio/Examples/Fonts/OFL.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Audio/VolumetricAudio/Examples/Fonts/OFL.txt.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Audio/VolumetricAudio/Examples/Fonts/VarelaRound-Regular.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Audio/VolumetricAudio/Examples/Fonts/VarelaRound-Regular.ttf.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Audio/VolumetricAudio/Examples/Integrations.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Audio/VolumetricAudio/Examples/Integrations/DJ PRO.unitypackage.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Audio/VolumetricAudio/Examples/Integrations/RT-Voice PRO.unitypackage.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Audio/VolumetricAudio/Examples/Integrations/Radio PRO.unitypackage.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Audio/VolumetricAudio/Examples/Materials.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Audio/VolumetricAudio/Examples/Materials/Concrete.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Audio/VolumetricAudio/Examples/Materials/Concrete.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Audio/VolumetricAudio/Examples/Materials/Forcefield.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Audio/VolumetricAudio/Examples/Materials/Forcefield.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Audio/VolumetricAudio/Examples/Materials/Grass.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Audio/VolumetricAudio/Examples/Materials/Grass.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Audio/VolumetricAudio/Examples/Materials/GreenGlow.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Audio/VolumetricAudio/Examples/Materials/GreenGlow.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Audio/VolumetricAudio/Examples/Materials/Metal.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Audio/VolumetricAudio/Examples/Materials/Metal.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Audio/VolumetricAudio/Examples/Materials/Mud.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Audio/VolumetricAudio/Examples/Materials/Mud.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Audio/VolumetricAudio/Examples/Materials/RedGlow.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Audio/VolumetricAudio/Examples/Materials/RedGlow.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Audio/VolumetricAudio/Examples/Materials/RedHollow.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Audio/VolumetricAudio/Examples/Materials/RedHollow.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Audio/VolumetricAudio/Examples/Materials/RedVolumetric.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Audio/VolumetricAudio/Examples/Materials/RedVolumetric.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Audio/VolumetricAudio/Examples/Materials/Skybox.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Audio/VolumetricAudio/Examples/Materials/Skybox.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Audio/VolumetricAudio/Examples/Materials/Water.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Audio/VolumetricAudio/Examples/Materials/Water.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Audio/VolumetricAudio/Examples/Materials/Wire.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Audio/VolumetricAudio/Examples/Materials/Wire.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Audio/VolumetricAudio/Examples/Materials/Wireframe.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Audio/VolumetricAudio/Examples/Materials/Wireframe.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Audio/VolumetricAudio/Examples/Materials/Wood.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Audio/VolumetricAudio/Examples/Materials/Wood.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Audio/VolumetricAudio/Examples/Meshes.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Audio/VolumetricAudio/Examples/Meshes/VA_Knot.DAE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Audio/VolumetricAudio/Examples/Meshes/VA_Knot.DAE.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Audio/VolumetricAudio/Examples/Meshes/VA_Scene.DAE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Audio/VolumetricAudio/Examples/Meshes/VA_Scene.DAE.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Audio/VolumetricAudio/Examples/Prefabs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Audio/VolumetricAudio/Examples/Prefabs/Canvas.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Audio/VolumetricAudio/Examples/Prefabs/Canvas.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Audio/VolumetricAudio/Examples/Prefabs/VA_Scene Variant.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Audio/VolumetricAudio/Examples/Prefabs/VA_Scene Variant.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Audio/VolumetricAudio/Examples/River.unity" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Audio/VolumetricAudio/Examples/River.unity.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Audio/VolumetricAudio/Examples/Scripts.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Audio/VolumetricAudio/Examples/Scripts/VA_BulletSpawner.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Audio/VolumetricAudio/Examples/Scripts/VA_BulletSpawner.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Audio/VolumetricAudio/Examples/Scripts/VA_ChangeSpiral.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Audio/VolumetricAudio/Examples/Scripts/VA_ChangeSpiral.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Audio/VolumetricAudio/Examples/Scripts/VA_Freeflight.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Audio/VolumetricAudio/Examples/Scripts/VA_Freeflight.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Audio/VolumetricAudio/Examples/Scripts/VA_Spin.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Audio/VolumetricAudio/Examples/Scripts/VA_Spin.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Audio/VolumetricAudio/Examples/Scripts/VA_Spiral.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Audio/VolumetricAudio/Examples/Scripts/VA_Spiral.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Audio/VolumetricAudio/Examples/Scripts/VA_Wireframe.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Audio/VolumetricAudio/Examples/Scripts/VA_Wireframe.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Audio/VolumetricAudio/Examples/Shaders.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Audio/VolumetricAudio/Examples/Shaders/VA_Skybox.shader" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Audio/VolumetricAudio/Examples/Shaders/VA_Skybox.shader.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Audio/VolumetricAudio/Examples/Shaders/VA_Solid.shader" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Audio/VolumetricAudio/Examples/Shaders/VA_Solid.shader.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Audio/VolumetricAudio/Examples/Shaders/VA_Wireframe.shader" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Audio/VolumetricAudio/Examples/Shaders/VA_Wireframe.shader.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Audio/VolumetricAudio/Examples/Sounds.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Audio/VolumetricAudio/Examples/Sounds/ForcefieldLoop.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Audio/VolumetricAudio/Examples/Sounds/ForcefieldLoop.wav.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Audio/VolumetricAudio/Examples/Sounds/PipeLoop.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Audio/VolumetricAudio/Examples/Sounds/PipeLoop.wav.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Audio/VolumetricAudio/Examples/Sounds/PowerLineLoop.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Audio/VolumetricAudio/Examples/Sounds/PowerLineLoop.wav.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Audio/VolumetricAudio/Examples/Sounds/PropellorLoop.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Audio/VolumetricAudio/Examples/Sounds/PropellorLoop.wav.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Audio/VolumetricAudio/Examples/Sounds/WaterLoop.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Audio/VolumetricAudio/Examples/Sounds/WaterLoop.wav.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Audio/VolumetricAudio/Examples/Sounds/WindLoop.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Audio/VolumetricAudio/Examples/Sounds/WindLoop.wav.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Audio/VolumetricAudio/Examples/Textures.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Audio/VolumetricAudio/Examples/Textures/Description.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Audio/VolumetricAudio/Examples/Textures/Description.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Audio/VolumetricAudio/GUIDE.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Audio/VolumetricAudio/GUIDE.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Audio/VolumetricAudio/Scripts.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Audio/VolumetricAudio/Scripts/VA_AudioListener.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Audio/VolumetricAudio/Scripts/VA_AudioListener.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Audio/VolumetricAudio/Scripts/VA_AudioSource.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Audio/VolumetricAudio/Scripts/VA_AudioSource.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Audio/VolumetricAudio/Scripts/VA_Box.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Audio/VolumetricAudio/Scripts/VA_Box.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Audio/VolumetricAudio/Scripts/VA_Capsule.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Audio/VolumetricAudio/Scripts/VA_Capsule.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Audio/VolumetricAudio/Scripts/VA_Editor.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Audio/VolumetricAudio/Scripts/VA_Editor.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Audio/VolumetricAudio/Scripts/VA_Helper.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Audio/VolumetricAudio/Scripts/VA_Helper.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Audio/VolumetricAudio/Scripts/VA_Material.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Audio/VolumetricAudio/Scripts/VA_Material.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Audio/VolumetricAudio/Scripts/VA_Mesh.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Audio/VolumetricAudio/Scripts/VA_Mesh.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Audio/VolumetricAudio/Scripts/VA_MeshLinear.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Audio/VolumetricAudio/Scripts/VA_MeshLinear.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Audio/VolumetricAudio/Scripts/VA_MeshTree.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Audio/VolumetricAudio/Scripts/VA_MeshTree.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Audio/VolumetricAudio/Scripts/VA_Path.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Audio/VolumetricAudio/Scripts/VA_Path.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Audio/VolumetricAudio/Scripts/VA_Plane.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Audio/VolumetricAudio/Scripts/VA_Plane.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Audio/VolumetricAudio/Scripts/VA_PopupAttribute.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Audio/VolumetricAudio/Scripts/VA_PopupAttribute.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Audio/VolumetricAudio/Scripts/VA_Shape.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Audio/VolumetricAudio/Scripts/VA_Shape.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Audio/VolumetricAudio/Scripts/VA_Sphere.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Audio/VolumetricAudio/Scripts/VA_Sphere.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Audio/VolumetricAudio/Scripts/VA_Triangle.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Audio/VolumetricAudio/Scripts/VA_Triangle.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Audio/VolumetricAudio/Scripts/VA_VolumetricShape.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Audio/VolumetricAudio/Scripts/VA_VolumetricShape.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Audio/VolumetricAudio/Scripts/VA_Zone.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Audio/VolumetricAudio/Scripts/VA_Zone.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Audio/VolumetricAudio/VolumetricAudio.asmdef" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Audio/VolumetricAudio/VolumetricAudio.asmdef.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Audio/Waves 5.27.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Audio/Waves 5.27.wav.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Sunrise/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Sunrise/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Sunrise/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Sunrise/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -129,6 +299,7 @@
       <workItem from="1609342169581" duration="7392000" />
       <workItem from="1609358930595" duration="1666000" />
       <workItem from="1609428997307" duration="10704000" />
+      <workItem from="1609534083482" duration="623000" />
     </task>
     <servers />
   </component>
