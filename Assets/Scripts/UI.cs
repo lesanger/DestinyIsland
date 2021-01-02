@@ -38,7 +38,6 @@ public class UI : MonoBehaviour
     {
         if (instance == null)
         {
-
             instance = this;
             //DontDestroyOnLoad(this.gameObject);
 

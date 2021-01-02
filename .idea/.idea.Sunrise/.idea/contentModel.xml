@@ -52,6 +52,7 @@
             <e p="VolumetricAudio.asmdef" t="Include" />
           </e>
         </e>
+        <e p="MusicGenerator.cs" t="Include" />
         <e p="Objects" t="Include">
           <e p="Assests" t="Include">
             <e p="Mannequins" t="Include">

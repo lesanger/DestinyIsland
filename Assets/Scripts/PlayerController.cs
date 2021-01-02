@@ -46,8 +46,8 @@ public class PlayerController : MonoBehaviour
 
     void Awake()
 	{
-        if (instance == null){
-
+        if (instance == null)
+        {
             instance = this;
             //DontDestroyOnLoad(this.gameObject);
             talkPanel.SetActive(false);

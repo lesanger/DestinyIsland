@@ -25,6 +25,7 @@ public class ObjectScript : MonoBehaviour
         player = GameObject.FindWithTag("Player");
         mainCamera = GameObject.FindWithTag("MainCamera");
         buttonsManager = GameObject.FindWithTag("ButtonsManager");
+        
     }
 
     private void Update()
@@ -45,6 +46,7 @@ public class ObjectScript : MonoBehaviour
         {
             model.SetActive(true);
             Destroy(gameObject);
+            MusicGenerator.instance.NewAllowedNote();
         }
         
         // Если NPC - девушка
