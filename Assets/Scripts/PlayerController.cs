@@ -30,6 +30,7 @@ public class PlayerController : MonoBehaviour
     private ObjectScript lastNPC;
     private bool isSitting = false;
     private bool isTalking = false;
+    public bool canInput = true;
     
     [HideInInspector]
     public bool canMove = true;
@@ -185,14 +186,17 @@ public class PlayerController : MonoBehaviour
         }
         else if (Input.GetButtonDown("Jump"))
         {
-            RaycastHit hit;
-            Ray ray = GetComponentInChildren<Camera>().ScreenPointToRay(Input.mousePosition);
-            if (Physics.Raycast(ray, out hit, interactDistance))
+            if (canInput)
             {
-                GameObject hitObject = hit.transform.gameObject;
-                if (hitObject.TryGetComponent<ObjectScript>(out ObjectScript objectScript))
+                RaycastHit hit;
+                Ray ray = GetComponentInChildren<Camera>().ScreenPointToRay(Input.mousePosition);
+                if (Physics.Raycast(ray, out hit, interactDistance))
                 {
-                    Interact(objectScript);
+                    GameObject hitObject = hit.transform.gameObject;
+                    if (hitObject.TryGetComponent<ObjectScript>(out ObjectScript objectScript))
+                    {
+                        Interact(objectScript);
+                    }
                 }
             }
         }

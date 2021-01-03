@@ -73,6 +73,9 @@ public class ObjectScript : MonoBehaviour
             Debug.Log("Количество сгоревших кнопок равно: " + manager.buttonsCounter);
         }
 
+        PlayerController.instance.canInput = false;
+        Debug.Log("Ввод отключен");
+
         // Убираем использованную кнопку
         timeToDeath = true;
         inWhatTimeDie = Time.time + countToDeath;

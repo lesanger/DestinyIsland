@@ -14539,6 +14539,10 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6162649697767527514, guid: dd77145528e6a9245b8111365c248b50, type: 3}
+      propertyPath: canInput
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6162649697767527514, guid: dd77145528e6a9245b8111365c248b50, type: 3}
       propertyPath: talkPanel
       value: 
       objectReference: {fileID: 2142060652}

@@ -15,4 +15,10 @@ public class ButtonPanelScript : MonoBehaviour
     {
         UI.instance.FirstTimeLoad();
     }
+
+    public void EnablePlayerInput()
+    {
+        PlayerController.instance.canInput = true;
+        Debug.Log("Ввод включен");
+    }
 }
