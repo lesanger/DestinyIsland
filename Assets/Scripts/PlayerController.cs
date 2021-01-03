@@ -174,17 +174,17 @@ public class PlayerController : MonoBehaviour
 
         if (isTalking)
         {
-            if (Input.GetButtonDown("Fire1"))
+            if (Input.GetButtonDown("Jump"))
             {
                 talkPanel.GetComponent<Animation>().Play("PositiveTalking");
             }
             
-            if (Input.GetButtonDown("Fire2"))
+            /*if (Input.GetButtonDown("Fire2"))
             {
                 talkPanel.GetComponent<Animation>().Play("NegativeTalking");
-            }
+            }*/
         }
-        else if (Input.GetButtonDown("Fire1"))
+        else if (Input.GetButtonDown("Jump"))
         {
             RaycastHit hit;
             Ray ray = GetComponentInChildren<Camera>().ScreenPointToRay(Input.mousePosition);
