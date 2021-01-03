@@ -8,6 +8,7 @@ public class MusicGenerator : MonoBehaviour
     public bool mainThemeTime = false;
     private int partIndex = 0;
     public AudioSource mainThemeSource;
+    public AudioClip mainTheme;
 
     private bool[] noteAllowed;
     private int allowedNotesAmount = 0;
@@ -127,6 +128,19 @@ public class MusicGenerator : MonoBehaviour
 
     public void OneMoreTime()
     {
-        Debug.Log("Следующий цикл");
+        if (mainThemeTime == true)
+        {
+            gameObject.GetComponent<Animation>().Play("ANIM_MainTheme");
+        }
+    }
+
+    public void PlayMainTheme()
+    {
+        mainThemeSource.PlayOneShot(mainTheme);
+    }
+
+    public void EndOfMainTheme()
+    {
+        Debug.Log("Главная мелодия закончилась");
     }
 }

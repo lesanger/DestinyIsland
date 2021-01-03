@@ -23,6 +23,8 @@ public class ButtonsManager : MonoBehaviour
             }
             
             Debug.Log("Девушка была создана!");
+
+            MusicGenerator.instance.mainThemeTime = true;
         }
     }
 }

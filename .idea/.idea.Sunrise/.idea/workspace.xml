@@ -20,15 +20,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="796ede43-dde9-43bc-a53a-4c0f6fe33703" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Assets/Audio/Sounds/Notes.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Audio/Sounds/Notes/note_A.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Audio/Sounds/Notes/note_A.wav.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Audio/Sounds/Notes/note_C.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Audio/Sounds/Notes/note_C.wav.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Audio/Sounds/Notes/note_E.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Audio/Sounds/Notes/note_E.wav.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Audio/Sounds/MainTheme.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Audio/Sounds/MainTheme.wav.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Player/ANIM_MainTheme.anim" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Player/ANIM_MainTheme.anim.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Sunrise/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Sunrise/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/ButtonsManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/ButtonsManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/MusicGenerator.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/MusicGenerator.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,7 +55,6 @@
       <option value="$PROJECT_DIR$/Assets/Scripts/Interactable.cs" />
       <option value="$PROJECT_DIR$/Assets/Assets_MannequinsFemale/scripts/MannequinFemale.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/CameraConroller.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scripts/ButtonsManager.cs" />
       <option value="$PROJECT_DIR$/Assets/ButtonPanel.cs" />
       <option value="$PROJECT_DIR$/Assets/ButtonPanelScript.cs" />
       <option value="$PROJECT_DIR$/Assets/TalkPanelScript.cs" />
@@ -69,6 +67,7 @@
       <option value="$PROJECT_DIR$/Assets/Scripts/UI.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/PlayerController.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/MusicGenerator.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/ButtonsManager.cs" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="1lz3zjs0IM95gjeeFlz84KnnBcP" />
@@ -143,7 +142,7 @@
       <workItem from="1609534083482" duration="623000" />
       <workItem from="1609613937427" duration="4937000" />
       <workItem from="1609675138231" duration="2123000" />
-      <workItem from="1609682092446" duration="1713000" />
+      <workItem from="1609682092446" duration="5286000" />
     </task>
     <servers />
   </component>

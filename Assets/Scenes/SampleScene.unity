@@ -7549,6 +7549,7 @@ Animation:
   m_Animation: {fileID: 7400000, guid: 010b783023d445549b807bbe24373bb4, type: 2}
   m_Animations:
   - {fileID: 7400000, guid: 010b783023d445549b807bbe24373bb4, type: 2}
+  - {fileID: 7400000, guid: b95e143b7675a684bae1b07c6b297c01, type: 2}
   m_WrapMode: 0
   m_PlayAutomatically: 1
   m_AnimatePhysics: 0
@@ -7663,6 +7664,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   mainThemeTime: 0
   mainThemeSource: {fileID: 1094757162}
+  mainTheme: {fileID: 8300000, guid: 9218cda6d2887ad498c940a201403e6c, type: 3}
   Bass:
   - {fileID: 8300000, guid: db597f6eaf2fdf84eaa351f4e18f28e8, type: 3}
   - {fileID: 8300000, guid: e39e6c2d431535245aea39071e2787a0, type: 3}
