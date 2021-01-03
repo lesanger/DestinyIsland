@@ -1,5 +1,4 @@
-﻿using System;
-using System.Collections;
+﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -15,7 +14,8 @@ public class SoundCameraHolder : MonoBehaviour
 
 	public void WalkStep()
     {
-	    //audioSource.PlayOneShot(audioClip);
+	    audioSource.PlayOneShot(audioClip);
+	    audioSource.pitch = Random.Range(1.2f, 1.5f);
 	    Debug.Log("Step");
     }
 }

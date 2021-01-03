@@ -20,9 +20,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="796ede43-dde9-43bc-a53a-4c0f6fe33703" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Assets/Audio/Sounds.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Audio/Sounds/Fantasy_Game_Footstep_Dirt_Light_A.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Audio/Sounds/Fantasy_Game_Footstep_Dirt_Light_A.wav.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Audio/Sounds/Waves 5.27.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Audio/Sounds/Waves 5.27.wav.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/MusicGenerator.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/MusicGenerator.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Sunrise/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Sunrise/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Sunrise/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Sunrise/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Player/ANIM_CameraRun.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Player/ANIM_CameraRun.anim" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Player/ANIM_CameraWalk.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Player/ANIM_CameraWalk.anim" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Audio/Waves 5.27.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Audio/Waves 5.27.wav.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MusicGenerator.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MusicGenerator.cs.meta" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/SoundCameraHolder.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/SoundCameraHolder.cs" afterDir="false" />
     </list>
@@ -136,7 +146,8 @@
       <workItem from="1609358930595" duration="1666000" />
       <workItem from="1609428997307" duration="10704000" />
       <workItem from="1609534083482" duration="623000" />
-      <workItem from="1609613937427" duration="4052000" />
+      <workItem from="1609613937427" duration="4937000" />
+      <workItem from="1609675138231" duration="286000" />
     </task>
     <servers />
   </component>
