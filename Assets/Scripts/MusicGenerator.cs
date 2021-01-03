@@ -62,7 +62,7 @@ public class MusicGenerator : MonoBehaviour
     
     public void PlayNote_2()
     {
-        if (noteAllowed[2])
+        if (noteAllowed[1])
         {
             Note_2Source.PlayOneShot(Note_2[partIndex]);
         }
@@ -70,7 +70,7 @@ public class MusicGenerator : MonoBehaviour
     
     public void PlayNote_3()
     {
-        if (noteAllowed[3])
+        if (noteAllowed[2])
         {
             Note_3Source.PlayOneShot(Note_3[partIndex]);
         }
@@ -78,7 +78,7 @@ public class MusicGenerator : MonoBehaviour
     
     public void PlayNote_4()
     {
-        if (noteAllowed[4])
+        if (noteAllowed[3])
         {
             Note_4Source.PlayOneShot(Note_4[partIndex]);
         }
@@ -86,7 +86,7 @@ public class MusicGenerator : MonoBehaviour
     
     public void PlayNote_5()
     {
-        if (noteAllowed[5])
+        if (noteAllowed[4])
         {
             Note_5Source.PlayOneShot(Note_5[partIndex]);
         }
@@ -94,7 +94,7 @@ public class MusicGenerator : MonoBehaviour
     
     public void PlayNote_6()
     {
-        if (noteAllowed[6])
+        if (noteAllowed[5])
         {
             Note_6Source.PlayOneShot(Note_6[partIndex]);
         }
@@ -102,7 +102,7 @@ public class MusicGenerator : MonoBehaviour
     
     public void PlayNote_7()
     {
-        if (noteAllowed[7])
+        if (noteAllowed[6])
         {
             Note_7Source.PlayOneShot(Note_7[partIndex]);
         }
@@ -110,14 +110,11 @@ public class MusicGenerator : MonoBehaviour
     
     public void PlayNote_8()
     {
-        if (noteAllowed[8])
+        if (noteAllowed[7])
         {
             Note_8Source.PlayOneShot(Note_8[partIndex]);
         }
-    }
-
-    public void OneMoreTime()
-    {
+        
         if (partIndex < 3)
         {
             partIndex += 1;
@@ -126,5 +123,10 @@ public class MusicGenerator : MonoBehaviour
         {
             partIndex = 0;
         }
+    }
+
+    public void OneMoreTime()
+    {
+        Debug.Log("Следующий цикл");
     }
 }

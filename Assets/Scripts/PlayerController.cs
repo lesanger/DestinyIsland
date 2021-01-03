@@ -79,7 +79,6 @@ public class PlayerController : MonoBehaviour
         {
             cameraController.ResetCamera();
         }
-
     }
 
     void Interact(ObjectScript objectScript)
