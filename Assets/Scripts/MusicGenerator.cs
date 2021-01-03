@@ -10,7 +10,7 @@ public class MusicGenerator : MonoBehaviour
     public AudioSource mainThemeSource;
 
     private bool[] noteAllowed;
-    private int allowedNotesAmount = 1;
+    private int allowedNotesAmount = 0;
 
     public AudioClip[] Bass;
     public AudioClip[] Note_2;

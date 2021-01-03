@@ -20,20 +20,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="796ede43-dde9-43bc-a53a-4c0f6fe33703" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Assets/Audio/Sounds/Bass.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Audio/Sounds/Bass/bass_A.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Audio/Sounds/Bass/bass_A.wav.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Audio/Sounds/Bass/bass_C.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Audio/Sounds/Bass/bass_C.wav.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Audio/Sounds/Bass/bass_E.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Audio/Sounds/Bass/bass_E.wav.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Audio/Sounds/Bass/bass_F.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Audio/Sounds/Bass/bass_F.wav.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Audio/Sounds/Notes.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Audio/Sounds/Notes/note_A.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Audio/Sounds/Notes/note_A.wav.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Audio/Sounds/Notes/note_C.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Audio/Sounds/Notes/note_C.wav.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Audio/Sounds/Notes/note_E.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Audio/Sounds/Notes/note_E.wav.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Sunrise/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Sunrise/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Player/ANIM_Music.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Player/ANIM_Music.anim" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/MusicGenerator.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/MusicGenerator.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/PlayerController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/PlayerController.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -148,7 +143,7 @@
       <workItem from="1609534083482" duration="623000" />
       <workItem from="1609613937427" duration="4937000" />
       <workItem from="1609675138231" duration="2123000" />
-      <workItem from="1609682092446" duration="345000" />
+      <workItem from="1609682092446" duration="1713000" />
     </task>
     <servers />
   </component>
