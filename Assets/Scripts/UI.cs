@@ -245,6 +245,7 @@ public class UI : MonoBehaviour
     public void LeaveButton()
     {
         MainMenuPanel.SetActive(false);
+        SteamAPI.instance.Exit();
         Application.Quit();
     }
     
