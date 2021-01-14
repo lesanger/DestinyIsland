@@ -87,6 +87,9 @@ public class PlayerController : MonoBehaviour
         if (objectScript.data.type == Type.chair)
         {
             Debug.Log("Сажусь...");
+
+            canMove = false;
+            cameraObject.GetComponent<CameraConroller>().SitOnBench();
         }
         else if (objectScript.data.type == Type.npc)
         {
