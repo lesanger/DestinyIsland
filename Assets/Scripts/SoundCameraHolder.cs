@@ -16,6 +16,6 @@ public class SoundCameraHolder : MonoBehaviour
     {
 	    audioSource.PlayOneShot(audioClip);
 	    audioSource.pitch = Random.Range(1.2f, 1.5f);
-	    Debug.Log("Step");
+	    //Debug.Log("Step");
     }
 }

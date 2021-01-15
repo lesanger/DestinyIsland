@@ -73,6 +73,8 @@ public class CameraConroller : MonoBehaviour
                 PlayerController.instance.canMove = true;
                 isSitting = true;
                 Debug.Log("Можно двигаться");
+                
+                SteamAPI.instance.TriggerAchievement("EndGame");
             }
         }
     }
