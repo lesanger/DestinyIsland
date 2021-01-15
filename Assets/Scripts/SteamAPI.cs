@@ -5,7 +5,6 @@ using UnityEngine;
 using Steamworks;
 using Steamworks.Data;
 
-
 public class SteamAPI : MonoBehaviour
 {
     public static SteamAPI instance;
