@@ -69,6 +69,8 @@ public class PlayerController : MonoBehaviour
         
         Inputs();
         CameraHolderAnimator();
+        
+        
     }
 
     public void ElevatorTeleport(Transform spawnPos)
@@ -168,6 +170,12 @@ public class PlayerController : MonoBehaviour
             x = Input.GetAxis("Horizontal");
             z = Input.GetAxis("Vertical");
             move = transform.right * x + transform.forward * z;
+            
+            if (move.magnitude > 1)
+            {
+                move = move.normalized * 1f;
+            }
+            
             controller.Move(move * speed * Time.deltaTime);
         }
         
