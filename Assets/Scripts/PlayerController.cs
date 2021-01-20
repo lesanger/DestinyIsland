@@ -154,9 +154,9 @@ public class PlayerController : MonoBehaviour
             animator.speed = 1f;
         }
     }
-    
+
     void Inputs()
-	{
+    {
         // Проверка нахождения на земле
         isGrounded = Physics.CheckSphere(groundCheck.position, groundDistance, groundMask);
         if (isGrounded && velocity.y < 0f)
@@ -170,33 +170,34 @@ public class PlayerController : MonoBehaviour
             x = Input.GetAxis("Horizontal");
             z = Input.GetAxis("Vertical");
             move = transform.right * x + transform.forward * z;
-            
+
             if (move.magnitude > 1)
             {
                 move = move.normalized * 1f;
             }
-            
+
             controller.Move(move * speed * Time.deltaTime);
         }
-        
+
         // Гравитация
         velocity.y += gravity * Time.deltaTime;
         controller.Move(velocity * Time.deltaTime);
 
         if (isTalking)
         {
-            if (Input.GetButtonDown("Jump"))
+            if (Input.GetButtonDown("Jump") || Input.GetButtonDown("Fire1"))
             {
                 talkPanel.GetComponent<Animation>().Play("PositiveTalking");
             }
-            
+
             /*if (Input.GetButtonDown("Fire2"))
             {
                 talkPanel.GetComponent<Animation>().Play("NegativeTalking");
             }*/
         }
-        else if (Input.GetButtonDown("Jump"))
-        {
+        else if (Input.GetButtonDown("Jump") || Input.GetButtonDown("Fire1"))
+
+    {
             if (canInput)
             {
                 RaycastHit hit;
